@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <node pkg="calibration" type="remove_ground" name="remove_ground">
+        <param name="topic_name" type="string" value="/velodyne64/PointCloud2"/>
+    </node>
+</launch>
